@@ -16,7 +16,7 @@ var Collection *mongo.Collection
 
 func init() {
 
-	databaseURL := "mongodb+srv://Shadman:YN8MvnBruubF8zrN@cluster0.c4g4i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+	databaseURL := "mongodb+srv://Shadman:############@cluster0.c4g4i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 	collectionOption := options.Client().ApplyURI(databaseURL)
 
